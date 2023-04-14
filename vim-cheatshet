@@ -44,6 +44,7 @@ va{ - select all inside {} with {}
 ctrl v - visual block, then shift i, then type multiline, after esc text apears everywhere
 Ctrl+a - will increment the number under the cursor or the first occurrence of a number to the right of the cursor
 Ctrl+x - will decrement the number under the cursor or the first occurrence of a number to the right of the cursor
+:s/oldname/newname/gc - replases all var names (VISUAL MODE), if do * or gd old name can be ommited
 
 ---windows
 :e /file/path: Open new file in a new buffer
