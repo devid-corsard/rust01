@@ -1,0 +1,27 @@
+fn main() {
+    let arr = vec![7, 3, 6];
+
+    println!("{:?}", quicksort(arr));
+}
+
+fn quicksort(arr: Vec<i32>) -> Vec<i32> {
+    let mut res: Vec<i32> = Vec::new();
+    if arr.len() < 2 {
+        return arr;
+    } else {
+        let pivot = arr[0];
+        let mut less = Vec::new();
+        let mut greater = Vec::new();
+        arr.iter().for_each(|e| {
+            if *e > pivot {
+                greater.push(*e);
+            } else {
+                less.push(*e);
+            }
+        });
+        res.append(&mut quicksort(less));
+        res.push(pivot);
+        res.append(&mut quicksort(greater));
+        return res;
+    }
+}
