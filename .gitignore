@@ -1,7 +1,9 @@
 .DS_Store
-rustlings
+rustlings/*
+!rustlings/exercises
+!rustlings/exercises/*
+experiments
 minigrep
 vim-cheatsheet-hl
 */target
 */*/target
-
