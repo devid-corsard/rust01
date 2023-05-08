@@ -1,0 +1,244 @@
+
+running 1 test
+test tests::p1_works ... FAILED
+
+failures:
+
+---- tests::p1_works stdout ----
+[
+    [
+        [
+            Num {
+                value: 22,
+                marked: false,
+            },
+            Num {
+                value: 13,
+                marked: false,
+            },
+            Num {
+                value: 17,
+                marked: false,
+            },
+            Num {
+                value: 11,
+                marked: false,
+            },
+            Num {
+                value: 0,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 8,
+                marked: false,
+            },
+            Num {
+                value: 2,
+                marked: false,
+            },
+            Num {
+                value: 23,
+                marked: false,
+            },
+            Num {
+                value: 4,
+                marked: false,
+            },
+            Num {
+                value: 24,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 21,
+                marked: false,
+            },
+            Num {
+                value: 9,
+                marked: false,
+            },
+            Num {
+                value: 14,
+                marked: false,
+            },
+            Num {
+                value: 16,
+                marked: false,
+            },
+            Num {
+                value: 7,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 6,
+                marked: false,
+            },
+            Num {
+                value: 10,
+                marked: false,
+            },
+            Num {
+                value: 3,
+                marked: false,
+            },
+            Num {
+                value: 18,
+                marked: false,
+            },
+            Num {
+                value: 5,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 1,
+                marked: false,
+            },
+            Num {
+                value: 12,
+                marked: false,
+            },
+            Num {
+                value: 20,
+                marked: false,
+            },
+            Num {
+                value: 15,
+                marked: false,
+            },
+            Num {
+                value: 19,
+                marked: false,
+            },
+        ],
+    ],
+    [
+        [
+            Num {
+                value: 3,
+                marked: false,
+            },
+            Num {
+                value: 15,
+                marked: false,
+            },
+            Num {
+                value: 0,
+                marked: false,
+            },
+            Num {
+                value: 2,
+                marked: false,
+            },
+            Num {
+                value: 22,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 9,
+                marked: false,
+            },
+            Num {
+                value: 18,
+                marked: false,
+            },
+            Num {
+                value: 13,
+                marked: false,
+            },
+            Num {
+                value: 17,
+                marked: false,
+            },
+            Num {
+                value: 5,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 19,
+                marked: false,
+            },
+            Num {
+                value: 8,
+                marked: false,
+            },
+            Num {
+                value: 7,
+                marked: false,
+            },
+            Num {
+                value: 25,
+                marked: false,
+            },
+            Num {
+                value: 23,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 20,
+                marked: false,
+            },
+            Num {
+                value: 11,
+                marked: false,
+            },
+            Num {
+                value: 10,
+                marked: false,
+            },
+            Num {
+                value: 24,
+                marked: false,
+            },
+            Num {
+                value: 4,
+                marked: false,
+            },
+        ],
+        [
+            Num {
+                value: 14,
+                marked: false,
+            },
+            Num {
+                value: 21,
+                marked: false,
+            },
+            Num {
+                value: 16,
+                marked: false,
+            },
+            Num {
+                value: 12,
+                marked: false,
+            },
+            Num {
+                value: 6,
+                marked: false,
+            },
+        ],
+    ],
+]
+thread 'tests::p1_works' panicked at 'assertion failed: `(left == right)`
+  left: `0`,
+ right: `4512`', src/lib.rs:185:9
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::p1_works
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
